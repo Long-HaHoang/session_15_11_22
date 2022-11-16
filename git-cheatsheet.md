@@ -1,11 +1,12 @@
 # Git command cheatsheet
 
-| Git command             | Git task                                         |
-| ----------------------- | ------------------------------------------------ |
-| git status              | List all files that have changed and their state |
-| git add <filename>      | Add file to the stage                            |
-| git commit -m "add foo" | Create a commit inluding all staged files        |
-| git log --online        | Show the commit history                          |
+| Git command                                  | Git task                                         |
+| -------------------------------------------- | ------------------------------------------------ |
+| git status                                   | List all files that have changed and their state |
+| git add <filename>                           | Add file to the stage                            |
+| git commit -m "add foo"                      | Create a commit inluding all staged files        |
+| git log --online                             | Show the commit history                          |
+| git log --graph --decorate --name-only --all | Show commit history with graphs                  |
 
 ## Using commits as backup
 
